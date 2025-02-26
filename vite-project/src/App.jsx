@@ -1,6 +1,6 @@
 import Herosection from "./components/herosection";
 import Navbar from "./components/navbar";
-import Feature from "./components/feature";
+import Workflow from "./components/workflow";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
     <Navbar/>
     <div className="max-w-7xl mx-auto pt-20 px-6">
     <Herosection/>
-    <Feature/>
+    <Workflow/>
     </div>
     </>
   );

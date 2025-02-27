@@ -1,9 +1,9 @@
 const Workflow = () => {
     return (
 
-      <div className="mt-30 min-h-[800px] flex-col items-center justify-center gap-10 px-10">
-        <h1 className="text-center text-5xl text-red-500">How OneSport Works?</h1>
-        <div className="flex flex-row mt-15">
+      <div className="mt-20 min-h-[800px] flex-col items-center justify-center gap-10 px-10">
+        <h1 className="text-center text-5xl text-red-500 font-semibold">How OneSport Works?</h1>
+        <div className="flex flex-row mt-8">
         <div className="w-1/2">
           <div className="mt-10">
             {[
@@ -13,16 +13,17 @@ const Workflow = () => {
               { title: "4. Payment & Confirmation", desc: "Pay securely via UPI, cards, or wallets. Receive booking confirmation via SMS with a booking ID." },
               { title: "5. Reminders & Check-in", desc: "Get notifications before the booking. Check in at the venue using a QR code or booking ID." },
               { title: "6. Enjoy the Game", desc: "Use the booked field for the reserved time." },
+              
             ].map((step, index) => (
               <div key={index} className="mb-6">
-                <h2 className="text-2xl font-semibold text-red-600">{step.title}</h2>
+                <h2 className="text-2xl font-semibold text-red-500">{step.title}</h2>
                 <p className="text-white">{step.desc}</p>
               </div>
             ))}
           </div>
         </div>
   
-        <div className="w-1/2 flex justify-center">
+        <div className="w-1/2 flex justify-center mt-10">
           <img
             src="/wallpaperflare.com_wallpaper.jpg" 
             alt="OneSport Workflow"

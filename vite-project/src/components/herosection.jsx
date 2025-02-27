@@ -2,8 +2,8 @@ import React from 'react';
 
 const Herosection = () => {
   return <>
-<div className="flex flex-row items-start mt-6 lg:mt-20">
-    <h1 className="pl-15 w-1/2 text-6xl text-left tracking-wide">
+<div className="flex flex-row items-start mt-6 lg:mt-17 ">
+    <h1 className="pl-15 w-1/2 text-6xl text-left tracking-wide text-red-500 font-semibold mt-6">
     Find. Book. Play. <br />Sports Fields <br /> Made Simple
     </h1>
 
@@ -13,7 +13,7 @@ const Herosection = () => {
 </div>
 <br />
 <br />
-<a href="#" className="ml-164 py-2 px-3 border rounded-md">
+<a href="#" className="ml-162 py-2 px-3 border rounded-md">
                    Our Purpose
                 </a>
 </>

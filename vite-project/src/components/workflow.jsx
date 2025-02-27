@@ -2,7 +2,7 @@ const Workflow = () => {
     return (
 
       <div className="mt-20 min-h-[800px] flex-col items-center justify-center gap-10 px-10">
-        <h1 className="text-center text-5xl text-red-500 font-semibold">How OneSport Works?</h1>
+        <h1 className="text-center text-6xl bg-gradient-to-b bg-clip-text font-semibold tracking-tight text-transparent dark:from-red-500 dark:to-red-900">How OneSport Works?</h1>
         <div className="flex flex-row mt-8">
         <div className="w-1/2">
           <div className="mt-10">
@@ -16,8 +16,8 @@ const Workflow = () => {
               
             ].map((step, index) => (
               <div key={index} className="mb-6">
-                <h2 className="text-2xl font-semibold text-red-500">{step.title}</h2>
-                <p className="text-white">{step.desc}</p>
+                <h2 className="text-2xl font-semibold text-red-500 opacity-90">{step.title}</h2>
+                <p className="text-white opacity-80">{step.desc}</p>
               </div>
             ))}
           </div>

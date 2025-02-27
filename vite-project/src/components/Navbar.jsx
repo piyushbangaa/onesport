@@ -8,7 +8,7 @@ const Navbar = () => {
                 <div className="flex items-center flex-shrink-0">
                     <img className="h-10"src={logo} alt="logo" />
                 </div>
-                <ul className="hidden lg:flex ml-14 space-x-12">
+                <ul className="hidden lg:flex ml-14 space-x-12 opacity-80">
                  <li>Platform</li>
                  <li>Solutions</li>
                  <li>Customers</li>

@@ -1,3 +1,5 @@
+import Image from "../assets/wallpaper.jpg"
+
 const Workflow = () => {
   return (
     <div className="mt-20 min-h-[800px] flex flex-col items-center justify-center gap-10 px-10">
@@ -23,7 +25,7 @@ const Workflow = () => {
 
         <div className="w-1/2 flex justify-center mt-10">
           <img
-            src="/wallpaperflare.com_wallpaper.jpg" 
+            src={Image} 
             alt="OneSport Workflow"
             className="w-full max-w-md rounded-lg shadow-lg"
           />

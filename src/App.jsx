@@ -1,6 +1,6 @@
 import Footer from "./components/Footer";
 import Herosection from "./components/herosection";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
 import Workflow from "./components/workflow";
 

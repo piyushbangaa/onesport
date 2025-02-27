@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Herosection from "./components/herosection";
 import Navbar from "./components/navbar";
 import Pricing from "./components/Pricing";
@@ -13,6 +14,8 @@ function App() {
     <Workflow/>
     <div className="border-t border-gray-600 my-10"></div>
     <Pricing/>
+    <div className="border-t border-gray-600 my-10"></div>
+    <Footer/>
     </div>
     </>
   );

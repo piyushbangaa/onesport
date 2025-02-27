@@ -6,7 +6,7 @@ const Pricing = () => {
       <h1 className="text-center text-6xl bg-gradient-to-b bg-clip-text font-semibold tracking-tight text-transparent dark:from-red-500 dark:to-red-900">
         Pricing
       </h1>
-      <div className="mt-10 flex flex-row gap-10 min-h-[500px] ">
+      <div className="mt-10 flex flex-row gap-10 min-h-[500px]">
         <div className="pt-10 w-1/3 flex items-center flex-col border-2 border-gray-700 rounded-[20px]">
           <h1 className="text-2xl font-semibold opacity-50 ">PrimePass</h1>  <br />
           <p><span className="text-6xl font-semibold bg-gradient-to-b from-white to-gray-500 bg-clip-text text-transparent">₹500</span><span className="text-gray-400">/month</span></p>

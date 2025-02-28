@@ -18,7 +18,8 @@ const Pricing = () => {
           </ul>
           <a href="#" className="mt-6 w-60 py-2 px-3 text-center border-2 border-gray-700 rounded-[15px] opacity-890">Subscribe</a>
         </div>
-        <div className="pt-10 w-1/3 flex items-center flex-col border-2 border-gray-700 rounded-[20px] bg-[#1E1E1E] text-white transition-all duration-300 hover:shadow-[0_0_40px_rgba(79,70,229,0.8)]">
+        <div className="pt-10 w-1/3 flex items-center flex-col border-2 border-gray-700 rounded-[20px] bg-[#1E1E1E] text-white transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(192,192,192,0.6)]">
+
 
           <h1 className="text-2xl font-semibold opacity-50">TwinPass</h1> <br />
           <p><span className="text-6xl font-semibold bg-gradient-to-b from-white to-gray-500 bg-clip-text text-transparent">₹800</span><span className="text-gray-400">/month</span></p>

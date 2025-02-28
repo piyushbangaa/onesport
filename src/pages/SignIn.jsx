@@ -2,8 +2,9 @@ import React from 'react'
 
 const SignIn = () => {
   return (
-    <div className="items-center justify-center">
-    <div className="mt-22 mx-auto h-109 w-100 bg-[#121212] border border-[#1e1e1e] rounded-lg text-center">
+
+    <div className="mt-22 mx-auto h-109 w-102 min-h-[446px]  border border-[#1e1e1e] rounded-lg ">
+    <div className="mt-1 mx-auto h-109 w-100 bg-[#121212] border border-[#1e1e1e] rounded-lg text-center">
 
     <h1 className="mt-7 text-3xl opacity-80">Sign In</h1> <br />
     <p className="opacity-80">Enter your email and password to login</p> <br />
@@ -12,9 +13,9 @@ const SignIn = () => {
 
     <button className="mt-5 border border-2px border-gray-500 rounded-[9px] w-80 h-10 opacity-80"> Sign In </button>
     <button className="mt-3 border border-2px border-gray-500 rounded-[9px] w-80 h-10 opacity-80"> Sign In with Google </button>
-<p className="mt-6 text-xs opacity-80">Don't have an account? Sign Up it's free!</p>
+<p className="mt-6 text-xs opacity-80">Don't have an account? <span className="">Sign Up</span> it's free!</p>
   </div>
-  </div>
+ </div>
   )
 }
 

@@ -1,23 +1,36 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Herosection from "./components/herosection";
-import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
 import Workflow from "./components/workflow";
+import SignIn from "./pages/SignIn"; // Import your SignIn page
+
+function Home() {
+  return (
+    <div className="max-w-7xl mx-auto pt-20 px-6">
+      <Herosection />
+      <div className="border-t border-gray-600 mt-40"></div>
+      <Workflow />
+      <div className="border-t border-gray-600 my-10"></div>
+      <Pricing />
+      <div className="border-t border-gray-600 my-10"></div>
+      <Footer />
+    </div>
+  );
+}
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    <div className="max-w-7xl mx-auto pt-20 px-6">
-    <Herosection/>
-    <div className="border-t border-gray-600 mt-40"></div>
-    <Workflow/>
-    <div className="border-t border-gray-600 my-10"></div>
-    <Pricing/>
-    <div className="border-t border-gray-600 my-10"></div>
-    <Footer/>
+    <div className="bg-black text-white min-h-screen">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/signin" element={<SignIn />} />
+        </Routes>
+      </Router>
     </div>
-    </>
   );
 }
 

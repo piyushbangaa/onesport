@@ -18,7 +18,7 @@ const Navbar = () => {
                 <a href="/signin" className="py-2 px-3 border rounded-md">
                     Sign In
                 </a>
-                <a href="#" className="bg bg-gradient-to-r from bg-red-500 to bg-red-800 py-2 px-3 border rounded-md">Create Account</a>
+                <a href="/createaccount" className="bg bg-gradient-to-r from bg-red-500 to bg-red-800 py-2 px-3 border rounded-md">Create Account</a>
                  </div>
             </div>
         </div>

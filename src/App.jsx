@@ -4,7 +4,8 @@ import Footer from "./components/Footer";
 import Herosection from "./components/herosection";
 import Pricing from "./components/Pricing";
 import Workflow from "./components/workflow";
-import SignIn from "./pages/SignIn"; // Import your SignIn page
+import SignIn from "./pages/SignIn";
+import Createaccount from "./pages/createaccount";
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/signin" element={<SignIn />} />
+          <Route path="/createaccount" element={<Createaccount />} />
         </Routes>
       </Router>
     </div>

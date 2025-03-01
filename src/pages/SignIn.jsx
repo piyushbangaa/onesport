@@ -7,6 +7,7 @@ const SignIn = () => {
   <div className="mt-1 mx-auto h-109 w-100 bg-[#121212] border border-[#1e1e1e] rounded-[12px] text-center">
   <h1 className="mt-7 text-3xl opacity-80 font-semibold">Sign In</h1> <br />
   <p className="opacity-80">Enter your email and password to login</p> <br />
+
   <input type="text"
    placeholder="Email"
    className="w-80 h-10 border border-2px border-[#1e1e1e] rounded-[9px] p-4 focus:outline-none focus:border-gray-500"/> 

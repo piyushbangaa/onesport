@@ -8,7 +8,7 @@ const Pricing = () => {
       </h1>
       <div className="mt-10 flex flex-row gap-10 min-h-[500px]">
 
-      <div className="pt-10 w-1/3 flex items-center flex-col border-2 border-gray-700 rounded-[20px] bg-[#121212]     text-white transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(192,192,192,0.6)]">
+      <div className="pt-10 w-1/3 flex items-center flex-col border-2 border-[#1e1e1e] rounded-[20px] bg-[#121212]     text-white transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(192,192,192,0.6)]">
 
            <h1 className="text-2xl font-semibold opacity-50 ">PrimePass</h1>  <br />
           <p><span className="text-6xl font-semibold bg-gradient-to-b from-white to-gray-500 bg-clip-text text-transparent">₹500</span><span className="text-gray-400">/month</span></p>
@@ -18,10 +18,10 @@ const Pricing = () => {
             <li>✅ Book Slots Anytime</li>
             <li>✅ Perfect for Beginners</li>
           </ul>
-          <a href="#" className="mt-6 w-60 py-2 px-3 text-center border-2 border-gray-700 rounded-[15px] opacity-890">Subscribe</a>
+          <a href="#" className="mt-6 w-60 py-2 px-3 text-center border-2 border-[#1e1e1e] rounded-[15px] opacity-890">Subscribe</a>
        </div>
 
-        <div className="pt-10 w-1/3 flex items-center flex-col border-2 border-gray-700 rounded-[20px] bg-[#121212] text-white transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(192,192,192,0.6)]">
+        <div className="pt-10 w-1/3 flex items-center flex-col border-2 border-[#1e1e1e] rounded-[20px] bg-[#121212] text-white transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(192,192,192,0.6)]">
 
 
           <h1 className="text-2xl font-semibold opacity-50">TwinPass</h1> <br />
@@ -32,10 +32,10 @@ const Pricing = () => {
             <li>✅ Flexible Timings</li>
             <li>✅ Ideal for Regular Players</li>
           </ul>
-          <a href="#" className="mt-6 w-60 py-2 px-3 text-center border-2 border-gray-700 rounded-[15px] opacity-90">Subscribe</a>
+          <a href="#" className="mt-6 w-60 py-2 px-3 text-center border-2 border-[#1e1e1e] rounded-[15px] opacity-90">Subscribe</a>
         </div>
 
-        <div className="pt-10 w-1/3 flex items-center flex-col border-2 border-gray-700 rounded-[20px] bg-[#121212] text-white transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(192,192,192,0.6)]">
+        <div className="pt-10 w-1/3 flex items-center flex-col border-2 border-[#1e1e1e] rounded-[20px] bg-[#121212] text-white transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(192,192,192,0.6)]">
 
           <h1 className="text-2xl font-semibold opacity-50"> UltraPass</h1> <br />
           <p><span className="text-6xl font-semibold bg-gradient-to-b from-white to-gray-500 bg-clip-text text-transparent">₹1,300</span><span className="text-gray-400">/month</span></p>
@@ -45,7 +45,7 @@ const Pricing = () => {
             <li>✅ Priority Booking</li>
             <li>✅ Perfect for All-Rounders</li>
           </ul>
-          <a href="#" className="mt-6 w-60 py-2 px-3 text-center border-2 border-gray-700 rounded-[15px] opacity-90">Subscribe</a>
+          <a href="#" className="mt-6 w-60 py-2 px-3 text-center border-2 border-[#1e1e1e] rounded-[15px] opacity-90">Subscribe</a>
         </div>
       </div>
     </div>

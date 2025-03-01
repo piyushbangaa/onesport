@@ -14,7 +14,7 @@ const Workflow = () => {
             { title: "5. Stay Notified", desc: "Get notifications before the booking. Check in at the venue using a QR code or booking ID." },
             { title: "6. Enjoy the Game", desc: "Use the booked field for the reserved time." },
           ].map((step, index) => (
-            <div key={index} className="p-4 border-2 border-gray-600 rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
+            <div key={index} className="p-4 border-2 border-[#1e1e1e] rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
               <h2 className="text-2xl font-semibold text-red-500 opacity-90">{step.title}</h2> <br />
               <p className="text-white opacity-80">{step.desc}</p>
             </div>

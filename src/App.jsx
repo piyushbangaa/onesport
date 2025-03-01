@@ -4,18 +4,18 @@ import Footer from "./components/Footer";
 import Herosection from "./components/herosection";
 import Pricing from "./components/Pricing";
 import Workflow from "./components/workflow";
-import SignIn from "./pages/SignIn";
+import SignIn from "./pages/SignIn"; // Import your SignIn page
 import Createaccount from "./pages/createaccount";
 
 function Home() {
   return (
     <div className="max-w-7xl mx-auto pt-20 px-6">
       <Herosection />
-      <div className="border-t border-gray-600 mt-40"></div>
+      <div className="border-t border-2 border-[#1e1e1e] mt-40"></div>
       <Workflow />
-      <div className="border-t border-gray-600 my-10"></div>
+      <div className="border-t border-2 border-[#1e1e1e] my-10"></div>
       <Pricing />
-      <div className="border-t border-gray-600 my-10"></div>
+      <div className="border-t border-2 border-[#1e1e1e] my-10"></div>
       <Footer />
     </div>
   );

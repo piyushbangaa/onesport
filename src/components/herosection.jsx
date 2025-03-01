@@ -4,7 +4,7 @@ const Herosection = () => {
   return <>
 <div className="flex flex-row items-start mt-6 lg:mt-17 ">
     <h1 className="pl-15 w-1/2 text-6xl bg-gradient-to-b bg-clip-text font-semibold tracking-tight text-transparent dark:from-red-500 dark:to-red-900">
-    Find. Book. Play. <br />Sports Fields <br /> Made Simple
+    Find. Book. Play. <br /> Sports Fields <br /> Made Simple
     </h1>
 
     <p className="w-1/2 ml-20 text-xl text-left tracking-wide opacity-80">
@@ -14,7 +14,7 @@ const Herosection = () => {
 <br />
 <br />
 <a href="#" className="ml-162 py-2 px-3 border rounded-md opacity-80">
-                   Our Purpose
+                   Book Now
                 </a>
 </>
 };

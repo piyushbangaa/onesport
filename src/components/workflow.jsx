@@ -2,9 +2,9 @@ import Image from "../assets/wallpaper.jpg"
 
 const Workflow = () => {
   return (
-    <div className="mt-20 min-h-[800px] flex flex-col items-center justify-center gap-10 px-10">
+    <div className="mt-15 mb-20 min-h-[800px] flex flex-col items-center justify-center gap-10 px-10">
       <h1 className="text-center text-6xl bg-gradient-to-b bg-clip-text font-semibold tracking-tight text-transparent dark:from-red-500 dark:to-red-900">How OneSport Works?</h1>
-      <div className="flex flex-row mt-8 w-full items-center justify-center">
+      <div className="flex flex-row mt-3 w-full items-center justify-center">
         <div className="w-1/2 grid grid-cols-3 grid-rows-2 gap-6 ">
           {[
             { title: "1. Sign Up / Log In", desc: "Register using email, phone number, or social login." },
@@ -23,7 +23,7 @@ const Workflow = () => {
           
 
 
-        <div className="w-1/2 flex justify-center mt-10">
+        <div className="w-1/2 flex justify-center mt-5">
           <img
             src={Image} 
             alt="OneSport Workflow"

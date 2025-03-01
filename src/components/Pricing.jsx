@@ -26,7 +26,6 @@ const Pricing = () => {
 
           <h1 className="text-2xl font-semibold opacity-50">TwinPass</h1> <br />
           <p><span className="text-6xl font-semibold bg-gradient-to-b from-white to-gray-500 bg-clip-text text-transparent">₹800</span><span className="text-gray-400">/month</span></p>
-
           <ul className="text-xl mt-10 space-y-7 opacity-80">
             <li>✅ 8 Sessions Per Month</li>
             <li>✅ Access to Any Two Sport</li>
